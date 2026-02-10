@@ -175,5 +175,60 @@
             </ol>
     </ul>
     
+    <h1>Tabla del Horario</h1>
+    <table border="10", Style="text-align: center;">            <!--con la etiqueta <table> creo la tabla y con <border> modifico el grosor del borde-->
+        <tr>        <!--con la etiqueta <tr> creo las columnas de la tabla-->
+            <th>Hora/Día</th>
+            <th>Lunes</th>
+            <th>Martes</th>         <!--con la etiqueta <th> creo las filas de la tabla pero su texto estará resaltado en negrita-->
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray;">8:30/9:30</td>      <!--con la etiqueta <td> creo las filas de la tabla-->
+            <td style="background-color:burlywood;">Sostenibilidad</td>
+            <td rowspan="2" style="background-color:aquamarine;">Fol</td>
+            <td style="background-color: gold;">Base de datos</td>
+            <td style="background-color:brown;">Digitalización</td>
+            <td rowspan="2" style="background-color:orange;">Entornos de desarrollo</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray;">9:30/10:30</td>
+            <td rowspan="2" style="background-color: gold;">Base de datos</td>
+            <td rowspan="2" style="background-color:green;">Sisitemas Informáticos</td>
+            <td rowspan="2" style="background-color: gold;">Base de datos</td>          <!--con <rowspan> puedo modificar el tamaño en vertical de una casilla-->
+        </tr>
+        <tr>
+            <td style="background-color: darkgray;">10:30/11:30</td>
+            <td style="background-color: gold;">Base de datos</td>
+            <td style="background-color:blue;">Lenguajes de marcas</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray;">11:30/11:50</td>
+            <td colspan="5" >Recreo</td>        <!--con <colspan> puedo modificar el tamaño en horizontal de una casilla-->
+
+        </tr>
+        <tr>
+            <td style="background-color: darkgray;">11:50/12:50</td>
+            <td rowspan="3" style="background-color:purple;">Programación</td>
+            <td style="background-color:aquamarine;">Fol</td>
+            <td rowspan="2" style="background-color:purple;">Programación</td>
+            <td rowspan="2" style="background-color:purple;">Programación</td>
+            <td style="background-color:blue;">Lenguajes de marcas</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray;">12:50/13:50</td>
+            <td style="background-color:blue;">Lenguajes de marcas</td>
+            <td rowspan="2" style="background-color:green;">Sisitemas Informáticos</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray;">13:50/14:50</td>
+            <td style="background-color:purple;">Programación</td>
+            <td style="background-color:orange;">Entornos de desarrollo</td>
+            <td style="background-color:green;">Sisitemas Informáticos</td>
+        </tr>
+    </table>
+
 </body>
 </html>
